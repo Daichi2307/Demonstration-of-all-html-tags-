@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive page demonstrating all HTML tags">
+    <title>All HTML Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, nav, section, article, aside, footer {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Tag -->
+<header>
+    <h1>HTML Tags Demonstration</h1>
+    <p>This webpage demonstrates the usage of every HTML tag.</p>
+</header>
+
+<!-- Navigation Tag -->
+<nav>
+    <ul>
+        <li><a href="#text">Text Tags</a></li>
+        <li><a href="#forms">Form Tags</a></li>
+        <li><a href="#media">Media Tags</a></li>
+        <li><a href="#semantics">Semantic Tags</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#lists">Lists</a></li>
+    </ul>
+</nav>
+
+<!-- Section: Text Tags -->
+<section id="text">
+    <h2>Text Tags</h2>
+
+    <!-- Headings -->
+    <h3>Headings (h1 to h6)</h3>
+    <h1>This is h1</h1>
+    <h2>This is h2</h2>
+    <h3>This is h3</h3>
+    <h4>This is h4</h4>
+    <h5>This is h5</h5>
+    <h6>This is h6</h6>
+
+    <!-- Paragraphs, Breaks, and Horizontal Rule -->
+    <h3>Paragraph and Line Breaks</h3>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph with a line break.<br>Here is the new line after the break.</p>
+    <hr>
+    <p>Horizontal rule above!</p>
+
+    <!-- Text Formatting -->
+    <h3>Text Formatting Tags</h3>
+    <p><b>Bold text using &lt;b&gt;</b></p>
+    <p><strong>Strong text using &lt;strong&gt;</strong></p>
+    <p><i>Italic text using &lt;i&gt;</i></p>
+    <p><em>Emphasized text using &lt;em&gt;</em></p>
+    <p><mark>Marked text using &lt;mark&gt;</mark></p>
+    <p><del>Deleted text using &lt;del&gt;</del></p>
+    <p><ins>Inserted text using &lt;ins&gt;</ins></p>
+    <p><small>Small text using &lt;small&gt;</small></p>
+    <p><sub>Subscript text using &lt;sub&gt;</sub> and <sup>Superscript text using &lt;sup&gt;</sup></p>
+
+    <!-- Quotes -->
+    <h3>Quotes</h3>
+    <blockquote cite="https://www.example.com">
+        This is a blockquote that references a source.
+    </blockquote>
+    <q>This is an inline quote.</q>
+    <address>Contact me at: example@example.com</address>
+
+    <!-- Preformatted Text and Code -->
+    <h3>Preformatted and Code Tags</h3>
+    <pre>
+        This is preformatted text.
+        It preserves whitespace and line breaks.
+    </pre>
+    <code>This is inline code.</code>
+    <kbd>Ctrl + C</kbd> to copy.
+</section>
+
+<!-- Section: Forms -->
+<section id="forms">
+    <h2>Forms</h2>
+
+    <!-- Form Elements -->
+    <form action="#">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file"><br><br>
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</section>
+
+<!-- Section: Media Tags -->
+<section id="media">
+    <h2>Media Tags</h2>
+
+    <!-- Image -->
+    <h3>Image</h3>
+    <img src="https://via.placeholder.com/150" alt="Sample Image" width="150" height="150">
+
+    <!-- Audio -->
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="audio_sample.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- Video -->
+    <h3>Video</h3>
+    <video controls width="320" height="240">
+        <source src="video_sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Iframe -->
+    <h3>Iframe</h3>
+    <iframe src="https://www.example.com" width="300" height="200" title="Example"></iframe>
+</section>
+
+<!-- Section: Semantic Tags -->
+<section id="semantics">
+    <h2>Semantic Tags</h2>
+
+    <!-- Article -->
+    <article>
+        <h3>Article Tag</h3>
+        <p>This is an article tag, which represents independent content in a webpage.</p>
+    </article>
+
+    <!-- Aside -->
+    <aside>
+        <h3>Aside Tag</h3>
+        <p>This is an aside tag, which is used for content indirectly related to the main content.</p>
+    </aside>
+</section>
+
+<!-- Section: Tables -->
+<section id="tables">
+    <h2>Tables</h2>
+
+    <!-- Table -->
+    <table>
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Section: Lists -->
+<section id="lists">
+    <h2>Lists</h2>
+
+    <!-- Unordered List -->
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h3>Ordered List</h3>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <!-- Description List -->
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Programming language for the web</dd>
+    </dl>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 All HTML Tags Demonstration</p>
+</footer>
+
+</body>
+</html>
